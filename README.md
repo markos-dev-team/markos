@@ -1,5 +1,5 @@
 # markos
-MarkOs minioperating system
+MarkOs minimal realtime operating system
 
 The project is a minimal kernel for embedded environments (mainly bare metal environments). 
 
@@ -14,9 +14,11 @@ This set of services allows creation of very simple programs. For more complex p
 # Goals
 
 The MarkOs goals include:
-- Easy portability
+- Easy portability (minimal amount of platform specific code)
 - Small footprint (full functionality takes less than 1.5 kB)
 - Standards compliance & compatibility: (&micro;ITRON 4.0 minimum requirements compatible)
+- Readability (simple to read C code)
+- Minimal dependencies (uses only a small subset of standard C libraries)
 
 # Supported targets
 
@@ -26,6 +28,10 @@ Current distribution supports target environments as follows:
      - This target can be supported via qemu if target hardware is not available.
 
 Easy porting to other ARMv7-M/R/A SoCs.
+
+# Getting Started
+
+See `COMPILING.md` for building instructions.
 
 # License
 
