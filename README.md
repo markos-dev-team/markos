@@ -1,4 +1,4 @@
-# markos
+# markos <a href="https://scan.coverity.com/projects/mnippula-markos"><img alt="Coverity Scan Build Status" src="https://scan.coverity.com/projects/17998/badge.svg" align="right"></a> <a href="https://travis-ci.com/markos-dev-team/markos"><img alt="Travis CI status" src="https://travis-ci.com/markos-dev-team/markos.svg?branch=master" align="right"></a> 
 MarkOs minimal realtime operating system
 
 The project is a minimal kernel for embedded environments (mainly bare metal environments). 
